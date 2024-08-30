@@ -36,18 +36,4 @@ header .h_right ul li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-}
-header .h_right .h_icon {
-  display: flex;
-  gap: 10px;
-  color: red;
-}
-header .h_right #menu {
-  display: none;
-}
-
-@media (max-width: 1305px) {
-  header {
-    padding: 0 20px;
-  }
 }/*# sourceMappingURL=style.css.map */

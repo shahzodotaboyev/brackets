@@ -42,23 +42,5 @@ header {
                 }
             }
         }
-
-        .h_icon {
-            display: flex;
-            gap: 10px;
-            // font-size: 10px;
-            color: red;
-        }
-
-        #menu {
-            display: none;
-        }
-    }
-}
-
-
-@media (max-width:1305px) {
-    header {
-        padding: 0 20px;
     }
 }
