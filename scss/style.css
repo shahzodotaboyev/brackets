@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Syne:wght@400..800&display=swap");
+@import url(./_resposive.scss);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+header {
+  max-width: 1600px;
+  width: 100%;
+  height: 90px;
+  margin: auto;
+  background-color: #F0F9FF;
+  position: sticky;
+  top: 0;
+  padding: 0 175px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .h_right {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+}
+header .h_right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+header .h_right ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .h_right .h_icon {
+  display: flex;
+  gap: 10px;
+  color: red;
+}
+header .h_right #menu {
+  display: none;
+}
+
+@media (max-width: 1305px) {
+  header {
+    padding: 0 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
